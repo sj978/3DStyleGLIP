@@ -18,8 +18,10 @@
 ![artistic_bags](./result_images/2_L_v_results/artistic_bags.png)
 
 ### Complex objects
+dragon, human
 
-### limitations
+### Limitations
+Sad human, Vibrant flower
 
 ## Ablation Study
 ![D_ablation](./result_images/4_ablation/D_ablation.png)
