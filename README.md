@@ -24,8 +24,8 @@ dragon, human
 Sad human, Vibrant flower
 
 ## Ablation Study
-### Ablation - SVBRDF & lighting
+#### SVBRDF & lighting based ablation study
 ![L_ablation](./result_images/4_ablation/L_ablation.png)
 
-### Ablation - Vertex displacement & color
+#### Vertex displacement & color based ablation study
 ![D_ablation](./result_images/4_ablation/D_ablation.png)
