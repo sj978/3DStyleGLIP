@@ -1,4 +1,9 @@
 # 3DStyleGLIP: Part-Tailored Text-Guided 3D Neural Stylization
+
+Official implementation of **3DStyleGLIP**, presented at **Pacific Graphics 2024**.
+
+[Paper](https://diglib.eg.org/handle/10.2312/pg20241320) · [arXiv](https://arxiv.org/abs/2404.02634)
+
 ![teaser](./result_images/1_teaser/teaser.png)
 **3DStyleGLIP** is a method specifically designed for text-driven, part-tailored 3D stylization. Given a 3D mesh and a text prompt, 3DStyleGLIP utilizes the vision-language embedding space of the Grounded Language-Image Pre-training (GLIP) model to localize individual parts of the 3D mesh and modify their appearance to match the styles specified in the text prompt. 3DStyleGLIP effectively integrates part localization and stylization guidance within GLIP’s shared embedding space through an end-to-end process, enabled by part-level style loss and two complementary learning techniques.
 
@@ -32,3 +37,17 @@ Results of ablation study (Full, without GLIP, without finetuning, without CLIP)
 ## Limitations
 Limited results of human with parts defined by texts that convey feelings or abstract concepts
 ![artistic_bags](./result_images/5_limited_results/limitation.png)
+
+## Citation
+
+```bibtex
+@inproceedings{chung2024styleglip,
+  title={{3DStyleGLIP}: Part-Tailored Text-Guided {3D} Neural Stylization},
+  author={Chung, SeungJeh and Park, JooHyun and Kang, HyeongYeop},
+  booktitle={Pacific Graphics Conference Papers and Posters},
+  year={2024},
+  publisher={The Eurographics Association},
+  doi={10.2312/pg.20241320},
+  url={https://diglib.eg.org/handle/10.2312/pg20241320}
+}
+```
